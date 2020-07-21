@@ -15,6 +15,7 @@ import { JwtModule } from '@auth0/angular-jwt';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ToastrModule } from "ngx-toastr";
 
+import { JwPaginationComponent } from 'jw-angular-pagination';
 
 // AoT requires an exported function for factories
 export const createTranslateLoader = (http: HttpClient) => {
@@ -28,6 +29,7 @@ export function tokenGetter() {
   declarations: [
     AppComponent,
     HomeComponent,
+    JwPaginationComponent
   ],
   imports: [
     BrowserModule,
