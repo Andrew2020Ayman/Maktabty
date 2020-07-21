@@ -1,0 +1,61 @@
+<footer class="FooterCont">
+    <div class="container">
+      <div class="row">
+          <div class="col-md-4">
+              <h2>{{'FOOTER.ABOUT' | translate}}</h2>
+              <p> {{'FOOTER.ABOUT_TXT' | translate}} </p>
+          </div>
+          <div class="col-md-4">
+              <h2>{{'FOOTER.LINKS' | translate}}</h2>
+              <ul class="navbar-nav">
+                     
+                        
+                <li class="nav-item  px-3 "
+                ><a 
+                class="navItemRout"
+                href="#home-section"
+                [ngClass]="{ active: Currrouter == '1' }"
+                (click)="Active_Router_Click('1')"
+                > {{'NAVBAR.HOME' | translate}} </a>
+                </li>
+
+                <li class="nav-item  px-3 "
+                ><a 
+                class="navItemRout"
+                href="#about-section"
+                [ngClass]="{ active: Currrouter == '1' }"
+                (click)="Active_Router_Click('1')"
+                > {{'NAVBAR.ABOUT' | translate}} </a>
+                </li>
+
+                <li class="nav-item  px-3">
+                     <a
+                     class="navItemRout"
+                     href="#Book-section"
+                     [ngClass]="{ active: Currrouter == '2' }"
+                (click)="Active_Router_Click('2')"
+                     > {{'NAVBAR.BOOKS' | translate}} </a>
+                  </li>
+
+                <li class="nav-item  px-3">
+                     <a
+                     class="navItemRout"
+                     [ngClass]="{ active: Currrouter == '3' }"
+                (click)="Active_Router_Click('3')"
+                     [routerLink]="['/about']"
+                     > {{'NAVBAR.TESTIMONIAL' | translate}} </a>
+                  </li>
+
+                
+
+              </ul>
+          </div>
+          <div class="col-md-4">
+              <h2>{{'FOOTER.HAVE_QUESTIONS' | translate}}</h2>
+              <p class="phone_Address"> 	203 Fake St. Mountain View, San Francisco, California, USA</p>
+              <p class="phone_Address"> 	+2 392 3929 210 </p>
+              <p > <a href="https://andrew13ayman@gmail.com"> andrew13ayman@gmail.com</a>  </p>
+          </div>
+      </div>
+    </div>
+</footer>

@@ -1,0 +1,28 @@
+.BookImg{
+    width: 80%;
+    -webkit-box-shadow: -7px -12px 33px -6px rgba(0,0,0,0.63);
+    -moz-box-shadow: -7px -12px 33px -6px rgba(0,0,0,0.63);
+    box-shadow: -7px -12px 33px -6px rgba(0,0,0,0.63);
+    border-radius: 37px;
+}
+.BookName{
+    font-size: 88px;
+    padding-left: 6%;
+    font-family: 'Philosopher', sans-serif;
+    margin-top: 12%;
+}
+
+.BookAuth{
+        font-size: 38px;
+        padding-left: 6%;
+}
+.BookDes{
+    padding-left: 6%;
+    font-size: 24px;
+    font-weight: 100;
+    font-family: 'Philosopher', sans-serif;
+    color: lightslategray;
+}
+.row{
+    margin-bottom: 6% !important;
+}

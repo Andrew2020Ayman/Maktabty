@@ -1,0 +1,58 @@
+.imgBox{
+    position: relative;
+    padding-bottom: 9%;
+
+}
+.imgCont{
+    width: 96%;
+    height: 393px;
+    -webkit-box-shadow: 3px 8px 12px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px 8px 12px -4px rgba(0,0,0,0.75);
+box-shadow: 3px 8px 12px -4px rgba(0,0,0,0.75);
+}
+.overlayImg{
+    position: absolute;
+    background-color: rgb(0,0,0,0.4);
+    background: #95adbe;
+    opacity: .8;
+    width: 0;
+    height: 93%;
+    top: 0%;
+    right: 1.9%;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  .imgBox:hover .overlayImg{
+    width: 96.3%;
+  }
+  .overlayBookName{
+     /*  position: absolute;
+      bottom: 30%;
+      left: 10%;
+      display: none;
+ */
+    text-align: left;
+    color: white;
+    font-size: 38px;
+    display: -webkit-box;
+    display: flex;
+    position: absolute;
+    bottom: 12%;
+    left: 10%;
+    padding: 0% 4% 0% 4%;
+    display: none;
+    z-index: 2;
+  }
+  .imgBox:hover .overlayBookName , .imgBox:hover .AuthorOverlay{
+  /*   opacity: 1; */
+  display: flex;
+  }
+  ::ng-deep .pagination {
+    justify-content: center;
+  }
+
+  .AllBookTxt{
+    font-family: 'Philosopher', sans-serif;
+    font-size: 42px;
+  }

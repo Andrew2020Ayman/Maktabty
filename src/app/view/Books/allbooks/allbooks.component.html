@@ -1,0 +1,24 @@
+<section class="section">
+   <div class="card text-center m-3">
+    <h3 class="card-header AllBookTxt">All books</h3>
+    <div class="card-body row">
+       
+  
+      <div class="col-md-4" *ngFor="let item  of pageOfItems ;let id = index "   >
+            <div class="imgBox" (click)="OpenBook(BooksInfo[item.id]._id,item.id)" >
+                 <img src={{item.bookImg}} class="imgCont"> 
+                <div class="overlayImg"></div>
+              
+                   <div class="overlayBookName" > {{BooksInfo[item.id]?.BookName}} </div>   
+                
+            </div>
+            
+           </div>
+   
+      
+    </div>
+    <div class="card-footer pb-0 pt-3">
+     <jw-pagination  [items]="items" (changePage)="onChangePage($event)"></jw-pagination> 
+    </div>
+</div> 
+</section>

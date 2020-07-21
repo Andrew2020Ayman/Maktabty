@@ -1,0 +1,60 @@
+{
+    "NAVBAR":{
+       "HOME":"Home",
+       "ABOUT":"About",
+       "BOOKS":"Books",
+       "TESTIMONIAL":"Testimonial",
+       "LANG":"Eng",
+       "LOGIN":"Login",
+       "LOGOUT":"LogOut"
+    },
+    "HOME": {
+        "HEADER": "Good books don't give up all their secrets at once",
+        "VIEW":"View All Books"
+      },
+      "BOOKS":{
+         "BOOK_TITLE":"Books",
+         "NEW_RELEASE":"New Release",
+         "MORE_BOOKS":"More Books",
+         "COST":"Cost"
+      },
+      "NUMBERS":{
+         "ACTIVE_READERS":"ACTIVE READERS",
+         "TOTAL_PAGES":"TOTAL PAGES",
+         "CUP_OF_COFFEE":"CUP OF COFFEE",
+         "FACEBOOK_FANS":"FACEBOOK FANS"
+      },
+      "ABOUT":{
+         "WELCOME":"WELCOME TO MAKTABTY.",
+         "CREATED":"Maktabty Created By Andrew Ayman",
+         "DES":"A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the worD and the Little Blind Text should turn around and return to its own, safe country."
+      },
+      "CUSTOMERS" :{
+         "TESTIMONIAL":"Testimonial",
+         "WORDS":"Kinds Words From Customers"
+         
+      },
+      "FOOTER":{
+         "ABOUT":"About",
+         "ABOUT_TXT":"Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+         "LINKS" : "Links",
+         "HAVE_QUESTIONS":"Have a Questions?"
+        
+      },
+      "LOGIN":{
+         "LOGIN":"Login",
+         "EMAIL_ADDRESS":"Email address",
+         "VALID_EMAIL":"Please Enter an email.",
+         "PASSWORD":"Password",
+         "VALID_PASS":"Please Enter a Password",
+         "CREATE_TXT":"Create a new account",
+         "REGISTRATION":"Registration",
+         "FIRST_NAME":"First name",
+         "VALID_FIRST":"Please Enter First Name",
+         "LAST":"Last name",
+         "VALID_LAST":"Please Enter Last Name",
+         "REGISTER":"Register",
+         "ALEARDY_TXT":"Already have an account?"
+      }
+
+}
