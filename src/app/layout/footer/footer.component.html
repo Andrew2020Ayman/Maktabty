@@ -14,8 +14,7 @@
                 ><a 
                 class="navItemRout"
                 href="#home-section"
-                [ngClass]="{ active: Currrouter == '1' }"
-                (click)="Active_Router_Click('1')"
+               
                 > {{'NAVBAR.HOME' | translate}} </a>
                 </li>
 
@@ -23,8 +22,7 @@
                 ><a 
                 class="navItemRout"
                 href="#about-section"
-                [ngClass]="{ active: Currrouter == '1' }"
-                (click)="Active_Router_Click('1')"
+               
                 > {{'NAVBAR.ABOUT' | translate}} </a>
                 </li>
 
@@ -32,17 +30,15 @@
                      <a
                      class="navItemRout"
                      href="#Book-section"
-                     [ngClass]="{ active: Currrouter == '2' }"
-                (click)="Active_Router_Click('2')"
+                    
                      > {{'NAVBAR.BOOKS' | translate}} </a>
                   </li>
 
                 <li class="nav-item  px-3">
                      <a
                      class="navItemRout"
-                     [ngClass]="{ active: Currrouter == '3' }"
-                (click)="Active_Router_Click('3')"
-                     [routerLink]="['/about']"
+                   
+                     href="#Testimonial-section"
                      > {{'NAVBAR.TESTIMONIAL' | translate}} </a>
                   </li>
 

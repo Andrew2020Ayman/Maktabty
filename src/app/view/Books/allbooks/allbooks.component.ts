@@ -1,10 +1,9 @@
 import { Component, OnInit, Input, Output, EventEmitter, SimpleChanges, OnChanges } from '@angular/core';
 import { Router, ActivatedRoute } from '@angular/router';
 import { BookService } from '../../../core/services';
-import { bookModel } from 'src/app/core/models';
-import { map } from 'rxjs/operators';
 
-
+/* import { JwPaginationComponent } from 'jw-angular-pagination'; 
+ */
 @Component({
   selector: 'app-allbooks',
   templateUrl: './allbooks.component.html',

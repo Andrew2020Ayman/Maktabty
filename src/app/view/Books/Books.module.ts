@@ -6,7 +6,8 @@ import { TranslateModule } from '@ngx-translate/core';
 import { FormsModule } from '@angular/forms';
 import { AllbooksComponent } from './allbooks/allbooks.component';
 import { SingleBookComponent } from './single-book/single-book.component';
-/* import { JwPaginationComponent } from 'jw-angular-pagination'; */
+/*  import { JwPaginationComponent } from 'jw-angular-pagination';  */
+import { JwPaginationModule } from 'jw-angular-pagination';
 
 
 const routes: Routes = [
@@ -19,8 +20,8 @@ const routes: Routes = [
         CommonModule,
         RouterModule.forChild(routes),
         FormsModule,
-        TranslateModule
-        
+        TranslateModule,
+        JwPaginationModule
     ],
     declarations: [AllbooksComponent, SingleBookComponent]
 })
