@@ -14,17 +14,17 @@ export class HomeComponent implements OnInit , AfterViewInit  {
   booksRelease = [
     {
 
-      bookImg : '../../../assets/images/books/book-1.jpg',
+      bookImg : "assets/images/books/book-1.jpg",
       bookName: 'You Are Your Only Limit',
       bookAuth : 'John Nathan Muller'
     },
     {
-      bookImg : '../../../assets/images/books/book-2.jpg',
+      bookImg : "assets/images/books/book-2.jpg",
       bookName: '101 Essays That Will Change The Way Your Thinks',
       bookAuth: 'John Nathan Muller'
     },
     {
-      bookImg : '../../../assets/images/books/book-3.jpg',
+      bookImg : "assets/images/books/book-3.jpg",
       bookName: 'Your Soul Is A River',
       bookAuth: 'John Nathan Muller'
     }
@@ -35,37 +35,37 @@ export class HomeComponent implements OnInit , AfterViewInit  {
       txt: 'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,there live the blind texts.',
       name : ' Roger Scott',
       jobTitle: 'Marketing Manager',
-      personImg : '../../../assets/images/users/person_1.jpg'
+      personImg : "assets/images/users/person_1.jpg"
     },
     {
       txt: 'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,there live the blind texts.',
       name : ' Roger Scott',
       jobTitle: 'Marketing Manager',
-      personImg : '../../../assets/images/users/person_2.jpg'
+      personImg : "assets/images/users/person_2.jpg"
     },
     {
       txt: 'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,there live the blind texts.',
       name : ' Roger Scott',
       jobTitle: 'Marketing Manager',
-      personImg : '../../../assets/images/users/person_3.jpg'
+      personImg : "assets/images/users/person_3.jpg"
     },
     {
       txt: 'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,there live the blind texts.',
       name : ' Roger Scott',
       jobTitle: 'Marketing Manager',
-      personImg : '../../../assets/images/users/person_4.jpg'
+      personImg : "assets/images/users/person_4.jpg"
     },
     {
       txt: 'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,there live the blind texts.',
       name : ' Roger Scott',
       jobTitle: 'Marketing Manager',
-      personImg : '../../../assets/images/users/person_4.jpg'
+      personImg : "assets/images/users/person_4.jpg"
     },
     {
       txt: 'Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,there live the blind texts.',
       name : ' Roger Scott',
       jobTitle: 'Marketing Manager',
-      personImg : '../../../assets/images/users/person_4.jpg'
+      personImg : "assets/images/users/person_4.jpg"
     }
 
   ];
